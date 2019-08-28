@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h3>Chuyen doi do dai</h3>
+meter <input type="text" id="m">
+<input type="button" id="change" value="Change" onclick="changefeet()";>
+<script>
+    function changefeet() {
+        var M = document.getElementById('m');
+        var change = document.getElementById('change');
+        change = (parseFloat(M.value)*3.2808);
+        var changefix = change.toFixed(4);
+        alert('ft = ' + changefix);
+    }
+</script>
+</body>
+</html>

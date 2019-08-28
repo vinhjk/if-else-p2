@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let myMoney = parseInt(prompt("Nhap so tien thu nhap :"));
+    let money;
+    if (myMoney > 200000000) {
+        money = myMoney * 15/100;
+    }
+    if (myMoney <= 200000000 && myMoney > 100000000) {
+        money = myMoney * 10/100;
+    }
+    if (myMoney <= 100000000) {
+        money = myMoney * 5/100;
+    }
+    alert("Thue thu nhap ca nhan la : " + money + "VND");
+</script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let a = parseInt(prompt("Nhap vao so a :"));
+    let b = parseInt(prompt("Nhap vao so b :"));
+    let x;
+    if (a !== 0 && b !== 0) {
+        x = -b / a;
+        alert("Phuong trinh co nghiem la x = " + x);
+    }
+    if (a === 0 && b === 0) {
+        alert("Phuong trinh vo so nghiem");
+    }
+    if (a === 0 && b !== 0) {
+        alert("Phuong trinh vo nghiem");
+    }
+    if (a !== 0 && b === 0) {
+        alert("Phuong trinh co ngiem duy nhat x = 0");
+    }
+
+</script>
+</body>
+</html>

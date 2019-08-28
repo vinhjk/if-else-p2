@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h3>Thay doi nhiet do</h3>
+oC <input type="text" id="oC">
+<input type="button" id="change" value="Change" onclick="changeCF()";>
+<script>
+    function changeCF() {
+        var C = document.getElementById('oC');
+        var change = document.getElementById('change');
+        change = (parseFloat(C.value)*9 + 160)/5;
+        var changefix = change.toFixed(2);
+        alert('oF = ' + changefix);
+    }
+</script>
+</body>
+</html>

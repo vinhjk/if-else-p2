@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let firstMoney = parseFloat(prompt("Nhap so tien vay ban dau :"));
+    let month = parseFloat(prompt("Nhap so thang cho vay: "));
+    let lastMoney;
+    if (month<=12){
+        Lsuat = 0.03;
+        lastMoney = firstMoney * Math.pow((1 + Lsuat), month);
+    }else {
+        Lsuat = 0.05;
+        lastMoney = firstMoney * Math.pow((1 + Lsuat), month);
+    }
+    alert(lastMoney);
+</script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+    let el = parseInt(prompt("Nhap so dien :"));
+    let money;
+    if (el > 200) {
+        money = el * 3500;
+    }
+    if (el <= 200 && el > 100) {
+        money = el * 3000;
+    }
+    if (el <= 100) {
+        money = el * 2500;
+    }
+    alert("So tien dien la : " + money + "VND");
+</script>
+</body>
+</html>
